@@ -216,7 +216,7 @@ const CompactDrive = () => {
             "image": [
               "https://compactdrive.ro/logo.jpg",
               "https://compactdrive.ro/bmw1.png",
-              "https://compactdrive.ro/camion.jpg"
+              "https://compactdrive.ro/camion.png"
             ],
             "description": "Școală de șoferi în Roman, Neamț. Pregătire completă pentru permis auto categoria B, C, CE. Instructori experimentați, mașini moderne, tarife competitive.",
             "slogan": "Formăm șoferi responsabili, pentru un trafic bazat pe respect și siguranță",
@@ -721,8 +721,8 @@ const CompactDrive = () => {
                       src={index === 0 
                         ? "/bmw1.png"
                         : index === 1
-                        ? "/camion.jpg"
-                        : "/camion-remorca.jpg"
+                        ? "/camion.png"
+                        : "/camion-remorca.png"
                       }
                       alt={category.title}
                       className="w-full h-48 object-cover rounded-lg mb-6"
