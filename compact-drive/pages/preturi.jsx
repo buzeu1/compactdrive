@@ -99,7 +99,7 @@ const Preturi = () => {
       price: "1500",
       priceVat: "(TVA inclus)",
       image: "/camion-remorca.png",
-      details: ["MAN + Remorcă", "Capacitate 10T", "Training Complet"],
+      details: ["MAN + Remorcă"],
       badge: null
     }
   ];
