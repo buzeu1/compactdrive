@@ -35,7 +35,7 @@ const Preturi = () => {
       title: "CURS COMPLET Categoria  B",
       price: "2700",
       priceVat: "(TVA inclus)",
-      image: "/masina1.jpg",
+      image: "/bmw1.png",
       details: ["An fabricație 2017" ],
       badge: "Cutie Manuală"
     },
