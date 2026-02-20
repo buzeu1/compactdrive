@@ -210,7 +210,7 @@ const Preturi = () => {
                 <span className="text-red-600">COMPACT</span>
                 <span className="ml-1">DRIVE</span>
               </div>
-             
+              <div className="text-xs text-gray-400 hidden sm:block">ȘCOALA DE ȘOFERI</div>
             </div>
           </a>
           
@@ -284,9 +284,7 @@ const Preturi = () => {
             <h2 className="text-red-600 text-sm font-semibold tracking-wider uppercase mb-2">
               COSTURI GENERALE PENTRU
             </h2>
-            <h3 id="categoria-b" className="text-4xl font-bold text-gray-900">
-              Școala de șoferi
-            </h3>
+            
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -294,7 +292,6 @@ const Preturi = () => {
               <div
                 key={index}
                 data-section={`vehicle-${index}`}
-                id={index === 5 ? "categoria-c" : index === 6 ? "categoria-ce" : undefined}
                 className={`bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-2 ${
                   visibleSections[`vehicle-${index}`] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
                 }`}

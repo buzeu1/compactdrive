@@ -702,9 +702,7 @@ const CompactDrive = () => {
             <h2 className="text-red-600 text-sm font-semibold tracking-wider uppercase mb-2">
               COSTURI GENERALE PENTRU
             </h2>
-            <h3 className="text-4xl font-bold text-gray-900">
-              Școala de șoferi
-            </h3>
+            
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -749,7 +747,7 @@ const CompactDrive = () => {
                     ))}
                   </div>
 
-                  <a href={index === 0 ? "/preturi#categoria-b" : index === 1 ? "/preturi#categoria-c" : "/preturi#categoria-ce"} className={`w-full ${category.color} text-white py-3 rounded-lg font-semibold hover:opacity-90 transition block text-center`}>
+                  <a href="/preturi" className={`w-full ${category.color} text-white py-3 rounded-lg font-semibold hover:opacity-90 transition block text-center`}>
                     Mergi la categoria {category.title}
                   </a>
                 </div>
