@@ -711,11 +711,11 @@ const CompactDrive = () => {
               <div 
                 key={index}
                 data-section={`category-${index}`}
-                className={`bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition transform hover:-translate-y-2 duration-1000 ${
+                className={`bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition transform hover:-translate-y-2 duration-1000 flex flex-col ${
                   visibleSections[`category-${index}`] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
                 }`}
               >
-                <div className="p-8">
+                <div className="p-8 flex flex-col h-full">
                   <div className="text-center mb-6">
                     <img 
                       src={index === 0 
@@ -739,7 +739,7 @@ const CompactDrive = () => {
                     </div>
                   </div>
 
-                  <div className="space-y-3 mb-6">
+                  <div className="space-y-3 mb-6 flex-1">
                     {category.vehicles.map((vehicle, vIndex) => (
                       <div key={vIndex} className="flex items-start space-x-2">
                         <CheckCircle size={20} className="text-green-500 flex-shrink-0 mt-0.5" />
