@@ -210,7 +210,7 @@ const Preturi = () => {
                 <span className="text-red-600">COMPACT</span>
                 <span className="ml-1">DRIVE</span>
               </div>
-              <div className="text-xs text-gray-400 hidden sm:block">ȘCOALA DE ȘOFERI</div>
+            
             </div>
           </a>
           
