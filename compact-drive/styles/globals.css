@@ -34,3 +34,7 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #dc2626;
 }
+
+#categoria-b, #categoria-c, #categoria-ce {
+  scroll-margin-top: 100px;
+}

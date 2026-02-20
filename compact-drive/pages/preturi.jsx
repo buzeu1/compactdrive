@@ -284,7 +284,7 @@ const Preturi = () => {
             <h2 className="text-red-600 text-sm font-semibold tracking-wider uppercase mb-2">
               COSTURI GENERALE PENTRU
             </h2>
-            <h3 className="text-4xl font-bold text-gray-900">
+            <h3 id="categoria-b" className="text-4xl font-bold text-gray-900">
               Școala de șoferi
             </h3>
           </div>
@@ -294,7 +294,7 @@ const Preturi = () => {
               <div
                 key={index}
                 data-section={`vehicle-${index}`}
-                id={index === 0 ? "categoria-b" : index === 6 ? "categoria-c" : index === 7 ? "categoria-ce" : undefined}
+                id={index === 6 ? "categoria-c" : index === 7 ? "categoria-ce" : undefined}
                 className={`bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-2 ${
                   visibleSections[`vehicle-${index}`] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
                 }`}
