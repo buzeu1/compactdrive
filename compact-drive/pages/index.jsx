@@ -117,7 +117,8 @@ const CompactDrive = () => {
       price: "3000",
       vat: "(TVA inclus)",
       vehicles: [
-        "MAN 2013"
+        "MAN 2013",
+        "Cutie Automată"
       ],
       color: "bg-gradient-to-br from-red-600 to-red-700"
     },
