@@ -294,6 +294,7 @@ const Preturi = () => {
               <div
                 key={index}
                 data-section={`vehicle-${index}`}
+                id={index === 0 ? "categoria-b" : index === 6 ? "categoria-c" : index === 7 ? "categoria-ce" : undefined}
                 className={`bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-2 ${
                   visibleSections[`vehicle-${index}`] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
                 }`}
