@@ -968,7 +968,7 @@ const CompactDrive = () => {
             <h4 className="text-xl font-bold mb-6">Localizare</h4>
             <div className="rounded-lg overflow-hidden h-48">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2731.8962558364446!2d26.922446315577983!3d46.92042997914603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b4f5a1a1a1a1a1%3A0x1a1a1a1a1a1a1a1a!2sPietonal%20%C8%98tefan%20cel%20Mare%2C%20Roman%20611038!5e0!3m2!1sen!2sro!4v1234567890123!5m2!1sen!2sro"
+                src="https://www.google.com/maps/place/Compact+Drive+Roman/@46.9214755,26.9229593,17z/data=!3m1!4b1!4m6!3m5!1s0x40caa3eed6e33e05:0x121539b93879e5d4!8m2!3d46.9214755!4d26.9255342!16s%2Fg%2F11l96pd4v9?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }}
