@@ -721,7 +721,7 @@ const CompactDrive = () => {
                         ? "/bmw1.jpeg"
                         : index === 1
                         ? "/camion.jpeg"
-                        : "/camion-remorca.jpeg"
+                        : "/camion-remorca.jpg"
                       }
                       alt={category.title}
                       className="w-full h-48 object-cover rounded-lg mb-6"

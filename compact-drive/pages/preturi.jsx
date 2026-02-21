@@ -98,7 +98,7 @@ const Preturi = () => {
       title: "CURS COMPLET Categoria CE",
       price: "1500",
       priceVat: "(TVA inclus)",
-      image: "/camion-remorca.jpeg",
+      image: "/camion-remorca.jpg",
       details: ["MAN + Remorcă"],
       badge: null
     }
