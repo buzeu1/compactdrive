@@ -125,7 +125,18 @@ const InformatiiUtile = () => {
   return (
     <>
       <Head>
-        <title>Informații Utile - Compact Drive</title>
+        <title>Informații Utile - Pași Obținere Permis Auto | Compact Drive Roman</title>
+        <meta name="description" content="Află toți pașii necesari pentru obținerea permisului auto la Compact Drive Roman. Acte necesare, linkuri utile, întrebări frecvente. Permis categoria B, C, CE în Roman, Neamț." />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://compactdrive.ro/informatii-utile" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://compactdrive.ro/informatii-utile" />
+        <meta property="og:title" content="Informații Utile - Compact Drive Roman" />
+        <meta property="og:description" content="Toți pașii pentru obținerea permisului auto. Acte necesare, linkuri utile, întrebări frecvente. Compact Drive Roman." />
+        <meta property="og:image" content="https://compactdrive.ro/logo.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Informații Utile - Compact Drive Roman" />
+        <meta name="twitter:description" content="Pași obținere permis auto, acte necesare, FAQ. Compact Drive Roman." />
         <link rel="icon" href="/logo.jpg" />
       </Head>
 
