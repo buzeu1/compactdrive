@@ -499,7 +499,7 @@ const CompactDrive = () => {
             <a href="/preturi" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Tarife</a>
             <a href="/promotii" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Promoții</a>
             <a href="/informatii-utile" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Info utile</a>
-            <a href="/#contact" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Contact</a>
+            <a href="/inscriere" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Contact</a>
             <a href="/inscriere" onClick={() => setIsMenuOpen(false)} className="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-lg font-semibold w-full block text-center">
               Înscriere Rapidă
             </a>

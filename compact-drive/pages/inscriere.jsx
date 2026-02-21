@@ -205,7 +205,7 @@ const Inscriere = () => {
             <a href="/preturi" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Tarife</a>
             <a href="/promotii" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Promoții</a>
             <a href="/informatii-utile" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Info utile</a>
-            <a href="/#contact" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Contact</a>
+            <a href="/inscriere" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Contact</a>
           </div>
         )}
       </nav>
