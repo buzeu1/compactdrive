@@ -12,7 +12,7 @@ Compact Drive este un proiect web full-stack dezvoltat de la zero pentru o școa
 
 **Ce am construit:**
 
-- Site multi-pagină cu animații scroll, galerie dinamică și formular de înscriere funcțional cu trimitere email în timp real
+- Site optimizat cu animații scroll, galerie dinamică și formular de înscriere funcțional cu trimitere email în timp real
 - Panou de administrare complet — clientul poate adăuga poze cu elevi promovați și gestiona promoțiile active direct din browser, fără cunoștințe tehnice
 - Strategie SEO locală completă: meta tags, Open Graph, schema JSON-LD (AutomotiveBusiness, FAQPage, BreadcrumbList), sitemap.xml și robots.txt — optimizat pentru a poziționa firma în primele rezultate Google pentru căutări locale
 
