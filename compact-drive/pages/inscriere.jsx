@@ -153,8 +153,19 @@ const Inscriere = () => {
 
   return (
     <>
-      <Head>
-        <title>Înscriere - Compact Drive</title>
+        <Head>
+        <title>Înscriere Rapidă - Școala de Șoferi Compact Drive Roman</title>
+        <meta name="description" content="Înscrie-te online la Compact Drive Roman. Formular rapid de înscriere pentru permis auto categoria B, C, CE. Instructori experimentați, tarife competitive. Sună: +40 768 211 211." />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://compactdrive.ro/inscriere" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://compactdrive.ro/inscriere" />
+        <meta property="og:title" content="Înscriere Rapidă - Compact Drive Roman" />
+        <meta property="og:description" content="Înscrie-te online la Compact Drive Roman. Permis auto categoria B, C, CE. Instructori experimentați, tarife competitive." />
+        <meta property="og:image" content="https://compactdrive.ro/logo.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Înscriere Rapidă - Compact Drive Roman" />
+        <meta name="twitter:description" content="Înscrie-te online la Compact Drive Roman. Permis auto categoria B, C, CE." />
         <link rel="icon" href="/logo.jpg" />
       </Head>
 
