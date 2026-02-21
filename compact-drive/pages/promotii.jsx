@@ -92,7 +92,7 @@ const Promotii = () => {
         <div className="bg-gradient-to-br from-red-600 to-red-700 text-white py-16 px-6 mb-16">
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-4">
-              Promotii
+              Promoții
             </h1>
             <p className="text-xl text-red-100">
               Descopera ofertele noastre speciale
