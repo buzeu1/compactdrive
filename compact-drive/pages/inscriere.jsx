@@ -454,7 +454,7 @@ const Inscriere = () => {
             <div className="text-3xl font-bold mb-4">
               <span className="text-red-600">COMPACT</span> DRIVE
             </div>
-            <p className="text-gray-400 leading-relaxed">
+            <p className="text-gray-400 leading-relaxed mb-6">
              Formăm șoferi responsabili, pentru un trafic bazat pe respect și siguranță.
             </p>
             <div className="flex space-x-4">
