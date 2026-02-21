@@ -37,58 +37,56 @@ const Promotii = () => {
       </Head>
 
       <div className="min-h-screen bg-gray-50">
-      <nav className="bg-black text-white py-4 px-6 fixed w-full top-0 z-50 shadow-lg">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <a href="/" className="flex items-center space-x-4">
-            <img 
-              src="/logo.jpg" 
-              alt="Compact Drive" 
-              className="w-16 h-16 rounded-full object-cover"
-            />
-            
-            <div className="flex items-center space-x-2">
-              <div className="text-2xl font-bold">
-                <span className="text-red-600">COMPACT</span>
-                <span className="ml-1">DRIVE</span>
+       <nav className="bg-black text-white py-4 px-6 fixed w-full top-0 z-50 shadow-lg">
+          <div className="max-w-7xl mx-auto flex items-center justify-between">
+            <a href="/" className="flex items-center space-x-4">
+              <img 
+                src="/logo.jpg" 
+                alt="Compact Drive" 
+                className="w-16 h-16 rounded-full object-cover"
+              />
+              <div className="flex items-center space-x-2">
+                <div className="text-2xl font-bold">
+                  <span className="text-red-600">COMPACT</span>
+                  <span className="ml-1">DRIVE</span>
+                </div>
               </div>
-              <div className="text-xs text-gray-400 hidden sm:block">SCOALA DE SOFERI</div>
-            </div>
-          </a>
-          
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="/" className="hover:text-red-500 transition">Acasa</a>
-            <a href="/despre-noi" className="hover:text-red-500 transition">Despre Noi</a>
-            <a href="/#categorii" className="hover:text-red-500 transition">Categorii permise</a>
-            <a href="/preturi" className="hover:text-red-500 transition">Tarife</a>
-            <a href="/promotii" className="text-red-500">Promotii</a>
-            <a href="/informatii-utile" className="hover:text-red-500 transition">Info utile</a>
-            <a href="/#contact" className="hover:text-red-500 transition">Contact</a>
-          </div>
-
-          <a href="/inscriere" className="hidden md:block bg-red-600 hover:bg-red-700 px-6 py-2 rounded-lg font-semibold transition">
-            Inscriere Rapida
-          </a>
-
-          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden">
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
-
-        {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 space-y-3">
-            <a href="/" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Acasa</a>
-            <a href="/despre-noi" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Despre Noi</a>
-            <a href="/#categorii" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Categorii permise</a>
-            <a href="/preturi" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Tarife</a>
-            <a href="/promotii" onClick={() => setIsMenuOpen(false)} className="block text-red-500">Promotii</a>
-            <a href="/informatii-utile" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Info utile</a>
-            <a href="/#contact" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Contact</a>
-            <a href="/inscriere" onClick={() => setIsMenuOpen(false)} className="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-lg font-semibold w-full block text-center mt-4">
-              Inscriere Rapida
             </a>
+            
+            <div className="hidden md:flex items-center space-x-8">
+              <a href="/" className="hover:text-red-500 transition">Acasă</a>
+              <a href="/despre-noi" className="hover:text-red-500 transition">Despre Noi</a>
+              <a href="/#categorii" className="hover:text-red-500 transition">Categorii permise</a>
+              <a href="/preturi" className="hover:text-red-500 transition">Tarife</a>
+              <a href="/promotii" className="text-red-500">Promoții</a>
+              <a href="/informatii-utile" className="hover:text-red-500 transition">Info utile</a>
+              <a href="/#contact" className="hover:text-red-500 transition">Contact</a>
+            </div>
+
+            <a href="/inscriere" className="hidden md:block bg-red-600 hover:bg-red-700 px-6 py-2 rounded-lg font-semibold transition">
+              Înscriere Rapidă
+            </a>
+
+            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden">
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
           </div>
-        )}
-      </nav>
+
+          {isMenuOpen && (
+            <div className="md:hidden mt-4 pb-4 space-y-3">
+              <a href="/" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Acasă</a>
+              <a href="/despre-noi" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Despre Noi</a>
+              <a href="/#categorii" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Categorii permise</a>
+              <a href="/preturi" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Tarife</a>
+              <a href="/promotii" onClick={() => setIsMenuOpen(false)} className="block text-red-500">Promoții</a>
+              <a href="/informatii-utile" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Info utile</a>
+              <a href="/#contact" onClick={() => setIsMenuOpen(false)} className="block hover:text-red-500 transition">Contact</a>
+              <a href="/inscriere" onClick={() => setIsMenuOpen(false)} className="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-lg font-semibold w-full block text-center">
+                Înscriere Rapidă
+              </a>
+            </div>
+          )}
+        </nav>
 
       <div className="pt-20 pb-16">
         <div className="bg-gradient-to-br from-red-600 to-red-700 text-white py-16 px-6 mb-16">
