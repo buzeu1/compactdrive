@@ -32,7 +32,18 @@ const Promotii = () => {
   return (
     <>
       <Head>
-        <title>Promoții - Compact Drive</title>
+        <title>Promoții - Școala de Șoferi Compact Drive Roman</title>
+        <meta name="description" content="Descoperă promoțiile și ofertele speciale ale școlii de șoferi Compact Drive din Roman. Reduceri la cursuri auto categoria B, C, CE. Înscrie-te acum!" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://compactdrive.ro/promotii" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://compactdrive.ro/promotii" />
+        <meta property="og:title" content="Promoții - Compact Drive Roman" />
+        <meta property="og:description" content="Oferte speciale și reduceri la cursuri auto categoria B, C, CE. Compact Drive Roman." />
+        <meta property="og:image" content="https://compactdrive.ro/logo.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Promoții - Compact Drive Roman" />
+        <meta name="twitter:description" content="Oferte speciale și reduceri la cursuri auto. Compact Drive Roman." />
         <link rel="icon" href="/logo.jpg" />
       </Head>
 
