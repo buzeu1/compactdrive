@@ -35,7 +35,7 @@ const Preturi = () => {
       title: "CURS COMPLET Categoria  B",
       price: "2700",
       priceVat: "(TVA inclus)",
-      image: "/bmw1.png",
+      image: "/bmw1.jpeg",
       details: ["An fabricație 2017" ],
       badge: "Cutie Manuală"
     },
@@ -44,7 +44,7 @@ const Preturi = () => {
       title: "CURS COMPLET Categoria B",
       price: "2900",
       priceVat: "(TVA inclus)",
-      image: "/bmw2.png",
+      image: "/bmw2.jpeg",
       details: ["An fabricație 2014" ],
       badge: "Cutie‎‎ Automata"
     },
@@ -53,7 +53,7 @@ const Preturi = () => {
       title: "CURS COMPLET Categoria B",
       price: "2700",
       priceVat: "(TVA inclus)",
-      image: "/pejo1.png",
+      image: "/pejo1.jpeg",
       details: ["An fabricație 2016" ],
       badge: "Cutie Manuală"
     },
@@ -62,7 +62,7 @@ const Preturi = () => {
       title: "CURS COMPLET Categoria B",
       price: "2700",
       priceVat: "(TVA inclus)",
-      image: "/reno1.png",
+      image: "/reno1.jpeg",
       details: ["An fabricație 2015" ],
       badge: "Cutie Manuală"
     },
@@ -71,7 +71,7 @@ const Preturi = () => {
       title: "CURS COMPLET Categoria B",  
       price: "2700",
       priceVat: "(TVA inclus)",
-      image: "/pejo2.png",
+      image: "/pejo2.jpeg",
       details: ["An fabricație 2015" ],
       badge: "Cutie Manuală"
     },
@@ -89,7 +89,7 @@ const Preturi = () => {
       title: "CURS COMPLET Categoria C",
       price: "3000",
       priceVat: "(TVA inclus)",
-      image: "/camion.png",
+      image: "/camion.jpeg",
       details: ["An fabricație 2013"],
       badge: "Cutie Automată"
     },
@@ -98,7 +98,7 @@ const Preturi = () => {
       title: "CURS COMPLET Categoria CE",
       price: "1500",
       priceVat: "(TVA inclus)",
-      image: "/camion-remorca.png",
+      image: "/camion-remorca.jpeg",
       details: ["MAN + Remorcă"],
       badge: null
     }
