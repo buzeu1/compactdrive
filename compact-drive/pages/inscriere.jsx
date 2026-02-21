@@ -21,7 +21,7 @@ const Inscriere = () => {
 
   useEffect(() => {
     // Inițializează EmailJS cu Public Key
-    emailjs.init('u1hQuhjSFBFKaDwrV');
+    emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_KEY);
     
     const observer = new IntersectionObserver(
       (entries) => {
@@ -63,8 +63,8 @@ const Inscriere = () => {
     try {
       // Trimite email prin EmailJS
       await emailjs.send(
-        'service_n8kqcao',
-        'template_361gctc',
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE,
         {
           nume: formData.nume,
           prenume: formData.prenume,
