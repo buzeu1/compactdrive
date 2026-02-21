@@ -185,7 +185,7 @@ const Inscriere = () => {
             <a href="/preturi" className="hover:text-red-500 transition">Tarife</a>
             <a href="/promotii" className="hover:text-red-500 transition">Promoții</a>
             <a href="/informatii-utile" className="hover:text-red-500 transition">Info utile</a>
-            <a href="/#contact" className="hover:text-red-500 transition">Contact</a>
+            <a href="/inscriere" className="hover:text-red-500 transition">Contact</a>
           </div>
 
           <a href="tel:+40768211211" className="hidden md:block bg-red-600 hover:bg-red-700 px-6 py-2 rounded-lg font-semibold transition">
