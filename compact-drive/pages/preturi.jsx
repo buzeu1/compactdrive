@@ -40,12 +40,12 @@ const Preturi = () => {
       badge: "Cutie Manuală"
     },
     {
-      category: "Bmw X1 ",
+      category: "Toyota Auris ",
       title: "CURS COMPLET Categoria B",
       price: "2900",
       priceVat: "(TVA inclus)",
-      image: "/bmw2.jpeg",
-      details: ["An fabricație 2014" ],
+      image: "/toyota.jpg",
+      details: ["An fabricație 2016" ],
       badge: "Cutie‎‎ Automata"
     },
     {
