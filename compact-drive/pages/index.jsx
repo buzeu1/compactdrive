@@ -98,7 +98,7 @@ const CompactDrive = () => {
       title: "AUTO",
       subtitle: "pentru permis de conducere categoria",
       code: "B",
-      price: "2700",
+      price: "3000",
       vat: "(TVA inclus)",
       vehicles: [
         "B - Peugeot 308 2016",
