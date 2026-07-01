@@ -33,7 +33,7 @@ const Preturi = () => {
     {
       category: "Bmw Seria 1",
       title: "CURS COMPLET Categoria  B",
-      price: "2700",
+      price: "3000",
       priceVat: "(TVA inclus)",
       image: "/bmw1.jpeg",
       details: ["An fabricație 2017" ],
@@ -51,7 +51,7 @@ const Preturi = () => {
     {
       category: "Peugeot 308",
       title: "CURS COMPLET Categoria B",
-      price: "2700",
+      price: "3000",
       priceVat: "(TVA inclus)",
       image: "/pejo1.jpeg",
       details: ["An fabricație 2016" ],
@@ -60,7 +60,7 @@ const Preturi = () => {
     {
       category: "Renault Megane",
       title: "CURS COMPLET Categoria B",
-      price: "2700",
+      price: "3000",
       priceVat: "(TVA inclus)",
       image: "/reno1.jpeg",
       details: ["An fabricație 2015" ],
@@ -69,7 +69,7 @@ const Preturi = () => {
     {
       category: "Peugeot 308",
       title: "CURS COMPLET Categoria B",  
-      price: "2700",
+      price: "3000",
       priceVat: "(TVA inclus)",
       image: "/pejo2.jpeg",
       details: ["An fabricație 2015" ],
@@ -78,7 +78,7 @@ const Preturi = () => {
     {
       category: "Renault Megane",
       title: "CURS COMPLET Categoria B",
-      price: "2700",
+      price: "3000",
       priceVat: "(TVA inclus)",
       image: "/reno2.png",
       details: ["An fabricație 2014" ],
